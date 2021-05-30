@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.smartparking">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SmartParking">
+        <activity
+            android:name=".view.admin.RiwayatActivity"
+            android:label="Riwayat"
+            android:parentActivityName=".view.admin.DashboardActivity" />
+        <activity
+            android:name=".view.admin.DashboardActivity"
+            android:label="On Going" />
+        <activity
+            android:name=".view.client.SettingActivity"
+            android:label="Pengaturan"
+            android:parentActivityName=".view.client.MainActivity" />
+        <activity
+            android:name=".view.client.RegisterActivity"
+            android:theme="@style/Theme.NoActionBar" />
+        <activity
+            android:name=".view.client.HistoryActivity"
+            android:label="Riwayat"
+            android:parentActivityName=".view.client.MainActivity" />
+        <activity
+            android:name=".view.client.FormOrderActivity"
+            android:label="Form Order"
+            android:parentActivityName=".view.client.MainActivity" />
+        <activity
+            android:name=".view.client.DetailActivity"
+            android:label="Detail"
+            android:parentActivityName=".view.client.MainActivity" />
+        <activity
+            android:name=".view.LoginActivity"
+            android:theme="@style/Theme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".view.client.MainActivity" />
+    </application>
+
+</manifest>

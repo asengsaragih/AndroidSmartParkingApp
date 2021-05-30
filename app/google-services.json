@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "162754451447",
+    "project_id": "qrsmart-parking",
+    "storage_bucket": "qrsmart-parking.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:162754451447:android:1db64f2904a92189a940f2",
+        "android_client_info": {
+          "package_name": "com.app.smartparking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "162754451447-sesrf9upaaap5r4cte5b237b5qqisf1t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.smartparking",
+            "certificate_hash": "e6855f8cef2e66518dbec56430c3ee59897a9cf0"
+          }
+        },
+        {
+          "client_id": "162754451447-rpkkpa0dema2s9e94fjlvqaghrt17qtr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGedZGdJEkqRHs6JZVyGGN5cVUfSyaqXE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "162754451447-rpkkpa0dema2s9e94fjlvqaghrt17qtr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
